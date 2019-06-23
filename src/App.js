@@ -1,22 +1,19 @@
 import React, { useState, useEffect } from "react";
-import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import MenuBar from "./components/MenuBar";
-import Test from "./components/Test";
 import HomeTab from "./components/HomeTab";
 import ResumeTab from "./components/ResumeTab";
 import Background from "./components/Background";
 import ContactTab from "./components/ContactTab";
 
-const routing = (
-  <Router>
-    <Switch>
-      <Route exact path="/personal_website" component={HomeTab} />
-      <Route path="/personal_website/home" component={HomeTab} />
-      <Route path="/personal_website/resume" component={ResumeTab} />
-      <Route path="/personal_website/contact" component={ContactTab} />
-      <Route component={HomeTab} />
-    </Switch>
-  </Router>
+const Routing = ({ tooSmall }) => (
+  <HashRouter basename="/">
+    <MenuBar tooSmall={tooSmall} />
+    <Route exact path="/" component={HomeTab} />
+    <Route path="/home" component={HomeTab} />
+    <Route path="/resume" component={ResumeTab} />
+    <Route path="/contact" component={ContactTab} />
+  </HashRouter>
 );
 
 function App() {
@@ -38,8 +35,9 @@ function App() {
   }, []);
   return (
     <React.Fragment>
-      <MenuBar tooSmall={tooSmall} />
-      <Background tooSmall={tooSmall}>{routing}</Background>
+      <Background tooSmall={tooSmall}>
+        <Routing />
+      </Background>
     </React.Fragment>
   );
 }

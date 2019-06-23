@@ -3,6 +3,7 @@ import resistor from "../resistor.svg";
 import tracing from "../tracing.svg";
 import SmallMenuBar from "./SmallMenuBar";
 import { useSpring, animated } from "react-spring";
+import { Link } from "react-router-dom";
 
 function ResistorButton({ text, right, href, y, theta }) {
   const [opacity, setOpacity] = useState(1);
@@ -50,7 +51,7 @@ function ResistorButton({ text, right, href, y, theta }) {
           {text}
         </h2>
       </div>
-      <a href={href}>
+      <Link to={href}>
         <svg
           onMouseOver={() => setOpacity(0.3)}
           onMouseLeave={() => setOpacity(1)}
@@ -74,7 +75,7 @@ function ResistorButton({ text, right, href, y, theta }) {
           />
           Sorry, your browser does not support inline SVG.
         </svg>
-      </a>
+      </Link>
     </React.Fragment>
   );
 }
@@ -118,21 +119,21 @@ function MenuBar({ tooSmall }) {
           right={180}
           y={animation1.y}
           theta={animation1.theta}
-          href="/personal_website/home"
+          href="/home"
         />
         <AnimatedResistor
           text="Resume"
           right={90}
           y={animation2.y}
           theta={animation2.theta}
-          href="/personal_website/resume"
+          href="/resume"
         />
         <AnimatedResistor
           text="Contact"
           right={0}
           y={animation3.y}
           theta={animation3.theta}
-          href="/personal_website/contact"
+          href="/contact"
         />
       </div>
     );
