@@ -7,6 +7,7 @@ import cpu from "../cpu.svg";
 import { useSpring, animated, useChain } from "react-spring";
 import ConsoleAnimation from "./ConsoleAnimation";
 import led from "../LED.svg";
+import scrollDown from "../scroll_down.svg";
 
 function NameCPU({ y }) {
   return (
@@ -117,6 +118,16 @@ function HomeTab({ tooSmall }) {
   );
   return (
     <div style={{ textAlign: "center", width: "100%" }}>
+      <img
+        src={scrollDown}
+        style={{
+          right: "50px",
+          bottom: "20px",
+          position: "fixed",
+          width: "50px",
+          height: "50px"
+        }}
+      />
       <NameCPUAnimation
         windowHeight={windowDimensions.height}
         tooSmall={tooSmall}

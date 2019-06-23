@@ -37,9 +37,9 @@ function Background({ tooSmall, children }) {
               height: 600,
               width: 500,
               position: "absolute",
-              left: "-206px",
-              top: "450px",
-              transform: "scaleX(-1)"
+              left: "-207px",
+              top: "-83px",
+              transform: "rotate(180deg)"
             }}
           />
           <img

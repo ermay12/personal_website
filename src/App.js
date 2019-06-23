@@ -9,7 +9,11 @@ import ContactTab from "./components/ContactTab";
 const Routing = ({ tooSmall }) => (
   <HashRouter basename="/">
     <MenuBar tooSmall={tooSmall} />
-    <Route exact path="/" render={props => <HomeTab {...props} />} />
+    <Route
+      exact
+      path="/"
+      render={props => <HomeTab tooSmall={tooSmall} {...props} />}
+    />
     <Route
       path="/home"
       render={props => <HomeTab tooSmall={tooSmall} {...props} />}
