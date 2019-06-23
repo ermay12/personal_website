@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 20 27.5"
+   xml:space="preserve"
+   sodipodi:docname="LED.svg"
+   width="20"
+   height="27.5"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
+   id="metadata94"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs92" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1838"
+   inkscape:window-height="1057"
+   id="namedview90"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="22.2"
+   inkscape:cx="17.68018"
+   inkscape:cy="15.707207"
+   inkscape:window-x="74"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="g57"
+   transform="matrix(1,0,0,0.34375,-10,14.09375)">
+	<rect
+   x="23.5"
+   y="23.5"
+   style="fill:#ffeea3"
+   width="2"
+   height="15"
+   id="rect53" />
+	<path
+   style="fill:#f5c276"
+   d="M 25,24 V 38 H 24 V 24 h 1 m 1,-1 h -3 v 16 h 3 z"
+   id="path55"
+   inkscape:connector-curvature="0" />
+</g>
+<g
+   id="g63"
+   transform="matrix(1,0,0,0.34375,-10,14.09375)">
+	<rect
+   x="14.5"
+   y="23.5"
+   style="fill:#ffeea3"
+   width="2"
+   height="15"
+   id="rect59" />
+	<path
+   style="fill:#f5c276"
+   d="M 16,24 V 38 H 15 V 24 h 1 m 1,-1 h -3 v 16 h 3 z"
+   id="path61"
+   inkscape:connector-curvature="0" />
+</g>
+<g
+   id="g69"
+   transform="translate(-10,-1)">
+	<path
+   style="fill:#f78f8f"
+   d="M 12.5,20.5 V 9 c 0,-4.136 3.364,-7.5 7.5,-7.5 4.136,0 7.5,3.364 7.5,7.5 v 11.5 z"
+   id="path65"
+   inkscape:connector-curvature="0" />
+	<path
+   style="fill:#ab3434"
+   d="m 20,2 c 3.86,0 7,3.14 7,7 V 20 H 13 V 9 C 13,5.14 16.14,2 20,2 M 20,1 V 1 C 15.6,1 12,4.6 12,9 V 21 H 28 V 9 C 28,4.6 24.4,1 20,1 Z"
+   id="path67"
+   inkscape:connector-curvature="0" />
+</g>
+<g
+   id="g77"
+   transform="translate(-10,-1)">
+	<rect
+   x="10.5"
+   y="20.5"
+   style="fill:#f78f8f"
+   width="19"
+   height="3"
+   id="rect71" />
+	<g
+   id="g75">
+		<path
+   style="fill:#ab3434"
+   d="m 29,21 v 2 H 11 v -2 h 18 m 1,-1 H 10 v 4 h 20 z"
+   id="path73"
+   inkscape:connector-curvature="0" />
+	</g>
+</g>
+<rect
+   x="4"
+   y="20"
+   style="fill:#f75252"
+   width="3"
+   height="2"
+   id="rect79" />
+<rect
+   x="13"
+   y="20"
+   style="fill:#f75252"
+   width="3"
+   height="2"
+   id="rect81" />
+<path
+   style="fill:#f75252"
+   d="M 7,19 H 4 V 14.929 C 4,14.929 3.875,11 8,11 v 3 c -1.075,0 -1,0.956 -1,0.956 z"
+   id="path83"
+   inkscape:connector-curvature="0" />
+<path
+   style="fill:#f75252"
+   d="m 13,19 h 3 V 14.929 C 16,14.929 16.125,11 12,11 v 3 c 1.075,0 1,0.956 1,0.956 z"
+   id="path85"
+   inkscape:connector-curvature="0" />
+<circle
+   style="fill:#ffffff"
+   cx="10"
+   cy="12"
+   r="3"
+   id="circle87" />
+</svg>

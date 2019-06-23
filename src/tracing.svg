@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="761.2489mm"
+   height="907.10687mm"
+   viewBox="0 0 761.2489 907.10687"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="tracing.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.098965885"
+     inkscape:cx="2380.6784"
+     inkscape:cy="1776.1168"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1838"
+     inkscape:window-height="1057"
+     inkscape:window-x="74"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,3.000091)">
+    <path
+       style="fill:#b3b3b3;stroke-width:0.23809521"
+       d="M 50.00005,-3.000091 A 50,50 0 0 0 0,46.999957 50,50 0 0 0 50.00005,97 50,50 0 0 0 100.00009,46.999957 50,50 0 0 0 50.00005,-3.000091 Z m 0,25.000024 A 25,25 0 0 1 75.00007,46.999957 25,25 0 0 1 50.00005,71.999967 25,25 0 0 1 25.000024,46.999957 25,25 0 0 1 50.00005,21.999933 Z"
+       id="path10"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:#b3b3b3;stroke-width:0.27149352"
+       id="rect31"
+       width="20"
+       height="105.29166"
+       x="40"
+       y="91.708336" />
+    <rect
+       style="opacity:1;fill:#b3b3b3;stroke-width:0.83668613"
+       id="rect31-9"
+       width="20"
+       height="1000"
+       x="-111.01576"
+       y="167.5843"
+       transform="rotate(-45)" />
+    <circle
+       style="opacity:1;fill:#000000;stroke-width:0.28225806"
+       id="path61"
+       cx="50.02013"
+       cy="47.00153"
+       r="25" />
+  </g>
+</svg>
