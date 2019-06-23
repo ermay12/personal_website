@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/personal_website/static/css/main.07c099fb.chunk.css",
-    "main.js": "/personal_website/static/js/main.7a1421af.chunk.js",
-    "main.js.map": "/personal_website/static/js/main.7a1421af.chunk.js.map",
+    "main.css": "/personal_website/static/css/main.df70b1c4.chunk.css",
+    "main.js": "/personal_website/static/js/main.ae2bbf33.chunk.js",
+    "main.js.map": "/personal_website/static/js/main.ae2bbf33.chunk.js.map",
     "runtime~main.js": "/personal_website/static/js/runtime~main.5454f9ef.js",
     "runtime~main.js.map": "/personal_website/static/js/runtime~main.5454f9ef.js.map",
-    "static/js/2.b41502e9.chunk.js": "/personal_website/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/personal_website/static/js/2.b41502e9.chunk.js.map",
+    "static/js/2.f15b515f.chunk.js": "/personal_website/static/js/2.f15b515f.chunk.js",
+    "static/js/2.f15b515f.chunk.js.map": "/personal_website/static/js/2.f15b515f.chunk.js.map",
     "index.html": "/personal_website/index.html",
-    "precache-manifest.0cdfcfdb24d0d49fc57236765120d49e.js": "/personal_website/precache-manifest.0cdfcfdb24d0d49fc57236765120d49e.js",
+    "precache-manifest.e1c6d4dce731f3d40e3c3ff25143695b.js": "/personal_website/precache-manifest.e1c6d4dce731f3d40e3c3ff25143695b.js",
     "service-worker.js": "/personal_website/service-worker.js",
-    "static/css/main.07c099fb.chunk.css.map": "/personal_website/static/css/main.07c099fb.chunk.css.map",
-    "static/media/logo.svg": "/personal_website/static/media/logo.5d5d9eef.svg"
+    "static/css/main.df70b1c4.chunk.css.map": "/personal_website/static/css/main.df70b1c4.chunk.css.map",
+    "static/media/LED.svg": "/personal_website/static/media/LED.3bacfc70.svg",
+    "static/media/capacitor.svg": "/personal_website/static/media/capacitor.c02a1632.svg",
+    "static/media/cpu.svg": "/personal_website/static/media/cpu.d0bd7e5e.svg",
+    "static/media/cpuHolder.svg": "/personal_website/static/media/cpuHolder.615d568f.svg",
+    "static/media/logo.svg": "/personal_website/static/media/logo.5d5d9eef.svg",
+    "static/media/resistor.svg": "/personal_website/static/media/resistor.36873f5d.svg",
+    "static/media/tracing.svg": "/personal_website/static/media/tracing.675496ff.svg"
   }
 }
