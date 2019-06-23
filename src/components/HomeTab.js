@@ -124,6 +124,7 @@ function HomeTab({ tooSmall }) {
       <ConsoleAnimation
         windowHeight={windowDimensions.height}
         windowWidth={windowDimensions.width}
+        tooSmall={tooSmall}
       />
     </div>
   );

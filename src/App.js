@@ -9,10 +9,13 @@ import ContactTab from "./components/ContactTab";
 const Routing = ({ tooSmall }) => (
   <HashRouter basename="/">
     <MenuBar tooSmall={tooSmall} />
-    <Route exact path="/" component={HomeTab} />
-    <Route path="/home" component={HomeTab} />
-    <Route path="/resume" component={ResumeTab} />
-    <Route path="/contact" component={ContactTab} />
+    <Route exact path="/" render={props => <HomeTab {...props} />} />
+    <Route
+      path="/home"
+      render={props => <HomeTab tooSmall={tooSmall} {...props} />}
+    />
+    <Route path="/resume" render={props => <ResumeTab {...props} />} />
+    <Route path="/contact" render={props => <ContactTab {...props} />} />
   </HashRouter>
 );
 
@@ -29,14 +32,14 @@ function App() {
     }
   }, []);
   useEffect(() => {
-    if (!window.chrome || (!window.chrome.webstore && !window.chrome.runtime)) {
+    if (navigator.userAgent.toLowerCase().indexOf("chrome") < 0) {
       alert("Warning: This site is best viewed in chrome.");
     }
   }, []);
   return (
     <React.Fragment>
       <Background tooSmall={tooSmall}>
-        <Routing />
+        <Routing tooSmall={tooSmall} />
       </Background>
     </React.Fragment>
   );

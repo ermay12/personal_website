@@ -2,7 +2,7 @@
   "name": "personal_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ermay12.github.io/personal_website",
+  "homepage": "http://www.eric-maynard.com/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
