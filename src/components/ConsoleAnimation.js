@@ -11,7 +11,7 @@ function getConsoleText(scroll, windowHeight) {
     return ">";
   }
   const string =
-    "> ./introduce_eric_maynard.exe#\nHi!\nI am an electrical and computer engineer graduating from Carnegie Mellon University.  This site is currently under construction, but feel free to check out my resume and reach out to me if you're at all interested in hiring me!\n";
+    "> ./introduce_eric_maynard.exe#\nHi!\nI am an electrical and computer engineer graduating from Carnegie Mellon University.  This site is currently under construction, but feel free to check out my resume and reach out to me if you're hiring!  I am graduating with an undergraduate degree in the spring of 2020, but will be looking for one final internship next summer before I go back to finish my masters in the fall of 2020.\n";
   let newString = string.replace(
     "#\n",
     "                                                  \n"
@@ -26,7 +26,7 @@ function ConsoleAnimation({ windowHeight }) {
     () => window.addEventListener("scroll", () => setScrollY(window.scrollY)),
     []
   );
-  const length = 2500;
+  const length = 3000;
   let consoleStart = windowHeight - 50;
   let consoleEnd = consoleStart + length - windowHeight;
 

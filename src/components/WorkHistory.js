@@ -1,10 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import logo from "../logo.svg";
-import { Button } from "react-bootstrap";
-import cpuHolder from "../cpuHolder.svg";
-import cpu from "../cpu.svg";
 import { useSpring, animated, useChain } from "react-spring";
-import ConsoleAnimation from "./ConsoleAnimation";
 import wove from "../wove.png";
 import boeing from "../boeing.jpg";
 import biorobotics from "../biorobotics.jpg";
@@ -15,14 +10,13 @@ function WorkEntry({ company, title, description, time, location, picture }) {
   return (
     <div
       style={{
-        width: "50%",
+        width: "1000px",
         height: "220px",
         backgroundColor: "#888888",
-        marginTop: "50px",
-        marginBottom: "50px",
-        marginLeft: "25%",
+        marginTop: "25px",
         borderRadius: "20px",
-        textAlign: "left"
+        textAlign: "left",
+        display: "inline-block"
       }}
     >
       <img
@@ -66,13 +60,24 @@ function WorkHistory({ tooSmall }) {
         style={{
           width: "70%",
           height: "150px",
-          marginTop: "50px",
+          marginTop: "100px",
           backgroundColor: "#eeeeee",
           color: "#000000",
-          textAlign: "right"
+          display: "flex"
         }}
       >
-        <h1 style={{ verticalAlign: "middle" }}>Work History</h1>
+        <h1
+          style={{
+            width: "300px",
+            position: "absolute",
+            left: "50%",
+            marginLeft: "-150px",
+            flexDirection: "row",
+            alignSelf: "center"
+          }}
+        >
+          Work History
+        </h1>
       </div>
       <WorkEntry
         picture={wove}

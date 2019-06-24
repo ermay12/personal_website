@@ -59,7 +59,8 @@ function Background({ tooSmall, children }) {
       <div
         style={{
           textAlign: "center",
-          width: "100%"
+          width: "100%",
+          marginTop: "50px"
         }}
       >
         <p

@@ -9,6 +9,7 @@ import ConsoleAnimation from "./ConsoleAnimation";
 import led from "../LED.svg";
 import scrollDown from "../scroll_down.svg";
 import WorkHistory from "./WorkHistory";
+import Projects from "./Projects";
 
 function NameCPU({ y }) {
   return (
@@ -63,7 +64,8 @@ function NameCPUAnimation({ windowHeight, tooSmall }) {
     to: { ledOpacity: 1 },
     from: { ledOpacity: 0.2 },
     config: { duration: 100 },
-    ref: ledRef
+    ref: ledRef,
+    delay: 1000
   });
 
   useChain([cpuRef, ledRef]);
@@ -139,6 +141,7 @@ function HomeTab({ tooSmall }) {
         tooSmall={tooSmall}
       />
       <WorkHistory />
+      <Projects />
     </div>
   );
 }
