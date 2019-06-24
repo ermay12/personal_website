@@ -8,6 +8,7 @@ import { useSpring, animated, useChain } from "react-spring";
 import ConsoleAnimation from "./ConsoleAnimation";
 import led from "../LED.svg";
 import scrollDown from "../scroll_down.svg";
+import WorkHistory from "./WorkHistory";
 
 function NameCPU({ y }) {
   return (
@@ -137,6 +138,7 @@ function HomeTab({ tooSmall }) {
         windowWidth={windowDimensions.width}
         tooSmall={tooSmall}
       />
+      <WorkHistory />
     </div>
   );
 }
